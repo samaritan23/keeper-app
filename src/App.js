@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import CreateArea from "./components/CreateArea"
 import Footer from "./components/Footer"
 import Note from "./components/Note";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import './App.css'
 
 function App() {
