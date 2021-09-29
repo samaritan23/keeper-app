@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #f5ba13;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    margin: 0;
+    font-family: "McLaren", cursive;
+    color: white;
+    font-weight: lighter;
+}
+
+form {
+    position: relative;
+    width: 50%;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+.note{
+    margin: 16px 32px;
+    padding: 10px;
+    width: 240px;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
+}
+
+.note h1{
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button {
+  font-size: 10px;
+  position: relative;
+  background-color: white;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+footer{
+    color: #ccc;
+    background-color: #eee;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    margin-top: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
