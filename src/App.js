@@ -1,9 +1,10 @@
 import React from "react";
-import Header from "./Header";
-import CreateArea from "./CreateArea"
-import Footer from "./Footer"
-import Note from "./Note";
+import Header from "./components/Header";
+import CreateArea from "./components/CreateArea"
+import Footer from "./components/Footer"
+import Note from "./components/Note";
 import { useState } from "react/cjs/react.development";
+import './App.css'
 
 function App() {
 
