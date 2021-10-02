@@ -28,7 +28,7 @@ function App() {
     <div className="App">
           <Header />
           <CreateArea 
-            onAdd = {addItem}
+            addItem = {addItem}
           />
           {items.map((text, index) => (
               <Note

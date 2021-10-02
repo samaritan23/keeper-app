@@ -21,7 +21,7 @@ function CreateArea(props) {
                 <input onChange={handleChange} type="text" name="title" placeholder="Title" value={notes.title} />
                 <textarea onChange={handleChange} name="content" placeholder="Take a note..." rows="3" value={notes.content} />
                 <button onClick={(event) => {
-                    props.onAdd(notes);
+                    props.addItem(notes);
                     setNote({
                         title: "",
                         content: ""
